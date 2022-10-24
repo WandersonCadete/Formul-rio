@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Formulário de Usuário- Exercício de PHP</title>
+</head>
+<body>
+    <div class="box">
+    <h1>Formulário de Usuário</h1>
+    <link rel="stylesheet" href="formatacao.css">
+    <img src="fundo.png">
+    <form method="GET" action="gravar.php">
+        <form action="gravar.php" method="GET">
+        <label>Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required><br><br>
+          
+        <label>Gênero:</label>
+            <br> 
+                <input type="radio" id="masculino" name="genero" value="masculino" required> Masculino<br>
+                 <input type="radio" id="feminino" name="genero"  value="feminino" required> Feminino<br> 
+                  <input type="radio" id="nao_inf" name="genero" value="não informado" required> Prefiro não informar<br>
+                    <br> 
+                     <br>
+  
+        <label>Data de Nascimento:</label><br>
+            <input type="date" name="data_nascimento" id="data_nascimento" placeholder="Digite a sua data de nascimento" required><br><br>
+        
+        <label>Telefone com DDD:</label><br> 
+            <input type="tel" name="telefone" id="telefone" placeholder="Digite o seu telefone com DDD" required><br>
+
+        <label>E-mail:</label><br>
+            <input type="email" name="email" id="email"  placeholder="Digite o seu E-mail" required><br><br>
+     
+        <input type="submit" name="Cadastrar" id="submit" value="Cadastrar"><br><br>
+    </div>
+    </body>
+<html>
